@@ -1,0 +1,372 @@
+body{
+    background-color: rgb(73, 189, 41);
+}
+.heder_nav{
+    display: flex;
+    width: auto;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: 'Irish Grover';
+    background-color: rgb(72, 145, 52);
+    border: 3px solid rgb(12, 122, 21);
+    border-radius: 20%;
+
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.nav > ul{
+    
+    display: flex;
+    list-style-type: none;
+}
+.nav > ul > a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: 0 15px;
+}
+.assk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    background-color: rgb(100, 81, 53);
+    border-radius: 25px;
+    
+}
+.assk:hover{
+    cursor: alias;
+    opacity: 50%;
+}
+.nav > ul > a:hover{
+    color: rgb(102, 141, 91);
+}
+.shreks{
+    display:flex;
+    
+    width:auto;
+    height:1000px;
+    background-image: url(tualet.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+.main_page{
+    display: flex;
+    justify-content:center;
+    height:800px;
+}
+.text_link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 2000px
+}
+.hell{
+    width: 530px;
+    text-align: center;
+    margin-left: 500px;
+}
+.text_link h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Fruktur';
+}
+.text_link ul{
+    list-style-type: none;
+    color: white;
+}
+.ci{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(94, 60, 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgb(87, 57, 13);
+}
+.ci:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+.herq{
+    display: flex;
+    width: auto;
+    height: 800px;
+    margin-top: 20px;
+    border: 3px solid rgb(12, 122, 21);
+    background-color: rgb(38, 151, 36);
+    align-items: center;
+    flex-direction: column;
+}
+.herq>p{
+    color: white;
+    margin-top: 50px;
+    font-family: 'Fruktur';
+}
+.herq>.text{
+    width: 570px;
+    display: flex;
+    justify-content: center;
+}
+.herq>.text>h1{
+    color: rgb(218, 218, 218);
+    font-family: 'Irish Grover';
+    font-size: 40px;
+}
+.boxi{
+    display: flex;
+    justify-content: space-around;   
+}
+.bx{
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    background-color: rgb(129, 92, 35);
+    border: 3px solid rgb(87, 59, 8);
+    font-family: 'Irish Grover';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    border-radius: 24%;
+}
+.bx>p{
+    font-family: 'Fruktur';
+}
+.bx:hover{
+    border: 5px solid rgb(19, 58, 14);
+}
+.aboutma{
+    width: auto;
+    height: 666px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abouttxt{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Irish Grover';
+    margin-right: 60px;
+    background-color: rgb(179, 130, 58);
+    border: 4px solid rgb(109, 87, 40);
+
+}
+.kart{
+    height: 400px;
+    width: 400px;
+    background-image: url(shrek.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 4px solid rgb(156, 113, 21);
+}
+.aboubtn{
+    margin-top: 50px;
+    width: 120px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(33, 134, 31);
+    border: 4px solid rgb(116, 84, 16);
+}
+.aboubtn > a{
+    text-decoration: none;
+    color: white;
+}
+.aboubtn :hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.footer{
+    height: 666px;
+    background-color: rgb(116, 88, 28);
+}
+.lastb{
+    
+    display: flex;
+    background-color: rgb(99, 71, 11);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Irish Grover';
+    color: white;
+}
+.ff{
+    margin-top: 50px;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(33, 134, 31);
+    border: 4px solid rgb(116, 84, 16);
+    border-radius: 25px;
+}
+.ff:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+.ff > a{
+    text-decoration: none;
+    color: white;
+}
+.atextbox {
+    display: flex;
+    height: 666px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.atext{
+    width: 500px;
+    font-family: "Irish Grover";
+    color: white;
+    font-size: large;
+    border: 4px solid rgb(39, 116, 37);
+    border-radius: 40px;
+}
+.aboutma2{
+    width: auto;
+    height: 666px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(87, 59, 8);
+}
+.myphoto{
+    height: 400px;
+    width: 400px;
+    background-image: url(photo.png);
+    background-position: center;
+    background-size: cover;
+    border: 4px solid rgb(94, 68, 12);
+}
+.fold{
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.boxa{
+    width: 150px;
+    height: 80px;
+    background-color: rgb(133, 90, 27);
+    border: 4px solid rgb(19, 58, 14);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    font-family:  "Irish Grover";
+    color: white;
+}
+.boxa:hover{
+    opacity: 50%;
+    border: 20px solid rgb(21, 73, 14);
+    cursor: pointer;
+}
+.contactCell{
+    height: 880px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(61, 138, 58);
+}
+.inputText{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: thistle;
+    border-radius: 25%;
+}
+.contact_main{
+    height: 800px;
+    background-color: rgb(50, 182, 79);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Irish Grover";
+}
+.input_block{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+.inp_text{
+    width: auto;
+    height: 200px;
+    text-align: center;
+    border: 2px solid grey;
+}
+.name_main{
+    display: flex;
+    justify-content: space-between;
+}
+.inp_name{
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    border: 2px solid grey;
+}
+.inp_sub{
+    margin-top: 30px;
+    width: auto;
+    height: 50px;
+    border: 2px solid grey;
+}
+.btn_ent{
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 5%;
+    text-align: center;
+    color: white;
+    background-color: rgb(116, 97, 16);
+}
+.btn_ent:hover{
+    opacity: 0.7;
+    cursor:pointer
+}
+.contacts{
+    width: 800px;
+    margin-top: 80px;
+}
+.contacts ul{
+    list-style-type:none;
+    display: flex; 
+    align-items: center;
+}
+.contacts > ul li{
+    display: flex; 
+    align-items: center; 
+}
+.contacts > ul li i{
+    margin-right: 10px;
+}
+.contact:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}

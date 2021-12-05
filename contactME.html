@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stils.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <title>Contacts</title>
+</head>
+<body>
+    <header class='heder_nav'>
+        <div class='logo'>
+            <h1>Shreks</h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="https://www.youtube.com/watch?v=aR7Vj6MRooo"><li>Service</li></a>
+                <a href="https://www.youtube.com/watch?v=aGK67auEfw0"><li>Contact</li></a>
+            </ul>
+            
+        </div>
+        <div class='assk'>
+            <div class="assk_me" onclick="deny()"><b>ASK ME</b></div>
+            <script>
+                function deny(){
+                    alert("Shut your up")
+                }
+
+            </script>
+        </div>
+    </header>
+    <main>
+    <div class="contact_main">
+        <h1>Talk to Me</h1>
+        <div class="input_block">
+            <input type="text" class="inp_text" placeholder="Enter">
+            <div class="name_main">
+                <input type="name"class="inp_name" placeholder="Name">
+                <input type="email"class="inp_name" placeholder="Email">
+            </div>
+            <input type="text" class="inp_sub" placeholder="Enter">
+            <div class="btn_ent" onclick="iCantHearYou()"><h2>Send</h2></div>
+            
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="lastb">
+            <h1>Share this information</h1>
+            <p>or we gonna find and kill you</p>
+            <div class="ff"><a href="https://yandex.ru/video/preview/?filmId=17500618058895048562&from=tabbar&parent-reqid=1636456703961604-8202951342509924329-sas3-0931-2f9-sas-l7-balancer-8080-BAL-1957&text=last+train+home">last button</a></div>
+        </div>
+    </footer>
+    <script>
+        function iCantHearYou(){
+            alert("I dont care")
+        }
+    </script>
+</body>
+</html>
