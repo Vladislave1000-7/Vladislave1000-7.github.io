@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,13 +17,13 @@
     </div>
     <div class = "main">
         <div id = "hub">
-            <button class = "bar" name = "bar" onclick="sorry();"><i class="uil uil-bars"></i></div>
+            <button class = "bar" title = "bar" onclick="sorry();"><i class="uil uil-bars"></i></div>
         </div>
         <div class = "section">
-            <div class = "search">
+            <div id = "search">
                 <form action="" method="get">
-                    <button id="searchButton" name="confirm" type="submit" onclick = "tryToFind(s.value)"><i class="uil uil-search"></i></button>
-                    <input name="s" id="searchinp" placeholder="Введите нужное Вам слово" type="search">
+                    <button id="searchButton" title="confirm" type="button" onclick = "tryToFind(s.value)"><i class="uil uil-search"></i></button>
+                    <input name="s" id="searchinp" placeholder="Введите нужное Вам слово" type="text">
                 </form>
             </div>
             <div class = "article">

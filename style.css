@@ -71,7 +71,7 @@ h3 {
     height: 100%;
 }
 
-.search {
+#search {
     position: fixed;
     display: flex;
     align-items: center;

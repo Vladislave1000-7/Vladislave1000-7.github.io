@@ -57,11 +57,17 @@ function tryToFind(input){
 
 function answer(word){
     console.log("Entered2");
-    Sblock = document.getElementById("Search")
-    Sblock.offSetHeight = parseInt(Sblock.offSetHeight)*3+"px";
-    console.log(Sblock.offSetHeight);
-    ans = document.createElement(h3);
+    let Sblock = document.createElement("div");
+    Sblock.style.display= "flex";
+    Sblock.style.alignItems = "center";
+    Sblock.style.width= "100%";
+    Sblock.style.position = "fixed";
+    Sblock.style.height= "300px";
+    Sblock.style.backgroundColor = "rgb(242, 208, 196)";
+    console.log(Sblock);
+    let ans = document.createElement("h3");
     ans.value = word + improvisation[word];
     console.log(ans.value);
-    document.append(ans);
+    document.body.append(Sblock);
+    document.body.append(ans);
 }
