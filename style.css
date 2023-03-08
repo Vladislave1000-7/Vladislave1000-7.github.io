@@ -1,0 +1,140 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(198, 185, 175);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    margin-left: 5%;
+    color : white;
+    font-size: 270%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+h3 {
+    margin-left: 4%;
+    color : white;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif
+}
+
+.header {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(175,106, 77);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    border-bottom: 29px solid rgb(224, 138, 103);
+}
+
+.main {
+    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+#hub {
+    position: fixed;
+    height: 100%;
+    width: 75px;
+    background-color: rgb(242, 208, 196); 
+    border-right: 5px solid rgb(119, 119, 119)
+}
+
+.section {
+    margin-left: 80px;
+    width: max-content;
+    height: 100%;
+}
+
+.search {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width:100%;
+    height: 80px;
+    background-color: rgb(254, 183, 155);
+}
+
+.article {
+    margin-top: 80px;
+    position: fixed;
+    width:100%;
+    height: 100%;
+    background-color: white;
+}
+
+.bar {
+    position: fixed;
+    font-size: 400%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 75px;
+    background: none;
+    border: none
+}
+
+#searchButton {
+    margin-left: 25px;;
+    font-size: 340%;
+    width: min-content;
+    height: min-content;
+    background:none;
+    border-radius: 100%;
+    border:none;
+}
+
+input::-webkit-input-placeholder {
+    color: #000000; 
+    font-family: 'Montserrat', sans-serif; 
+    background: none;
+    font-size: 95%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+#searchinp {
+    border: none;
+    color : black;
+    width:265px;
+    height:60px;
+    background-color: rgb(242, 208, 196);
+    margin-left: 10px;
+    font-size: 95%;  
+    font-family: 'Montserrat', sans-serif; 
+}
+
+h1:hover {
+    cursor:default;
+}
+
+h3:hover {
+    cursor:default;
+}
+
+input:hover {
+    cursor:pointer;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
