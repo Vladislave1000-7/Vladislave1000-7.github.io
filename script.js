@@ -42,6 +42,7 @@ function sorry(){
 }
 function sorryVer2(){
     alert("It seems we didn't found the meaning of this word yet. Or maybe you have written the word wrong");
+    console.log("not found");
 }
 function tryToFind(input){
     input = input.toLowerCase();
@@ -49,13 +50,13 @@ function tryToFind(input){
         sorryVer2();
     }
     else{
-        console.log("Entered");
+        console.log("Entered1");
         answer(input);
     }
 }
 
 function answer(word){
-    console.log("Entered");
+    console.log("Entered2");
     Sblock = document.getElementById("Search")
     Sblock.offSetHeight = parseInt(Sblock.offSetHeight)*3+"px";
     console.log(Sblock.offSetHeight);
