@@ -149,4 +149,53 @@ button:hover {
     cursor: pointer;
 }
 
+h2:hover {
+    cursor:default;
+}
 
+.title {
+    margin-top: 20px;
+    height: 100px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.Bpoint {
+    width: 35px;
+    height: 35px;
+    border: 4px solid rgb(247, 126, 83);
+    box-shadow: 0px 0px 0px 4px rgb(161, 78, 38);
+    background-color: rgb(161, 78, 38);
+    border-radius: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2 {
+    color : rgb(190, 124, 128);
+    font-size: 290%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+.textBox {
+    height: max-content;
+    width: 100%;
+    border: solid black;
+}
+
+.content{
+    width: 70%;
+    height:400px;
+    margin-bottom:30px;
+    margin-left: 40px;
+}
+
+#im1 {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    background-image: url("firstArticte.jpg");
+    background-position: center;  
+}
