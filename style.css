@@ -182,20 +182,20 @@ h2 {
 .textBox {
     height: max-content;
     width: 100%;
-    border: solid black;
 }
 
 .content{
-    width: 70%;
-    height:400px;
+    width: 60%;
+    height:500px;
     margin-bottom:30px;
     margin-left: 40px;
+    position: relative;
 }
 
 #im1 {
     height: 100%;
     width: 100%;
-    object-fit: contain;
-    background-image: url("firstArticte.jpg");
-    background-position: center;  
+    background-image: url("firstArticte.jpg"); 
+    background-size: cover;
+    border: 2px solid rgb(247, 126, 83);
 }
