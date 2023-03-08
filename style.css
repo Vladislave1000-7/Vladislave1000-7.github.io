@@ -15,16 +15,28 @@ body {
 h1 {
     margin-left: 5%;
     color : white;
-    font-size: 270%;
+    font-size: 290%;
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 h3 {
-    margin-left: 4%;
+    margin-left: 6%;
     color : white;
-    font-size: 100%;
-    font-family: 'Montserrat', sans-serif
+    font-size: 120%;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 .header {
@@ -102,7 +114,7 @@ input::-webkit-input-placeholder {
     color: #000000; 
     font-family: 'Montserrat', sans-serif; 
     background: none;
-    font-size: 95%;
+    font-size: 120%;
 }
 
 form {
@@ -113,11 +125,11 @@ form {
 #searchinp {
     border: none;
     color : black;
-    width:265px;
+    width:350px;
     height:60px;
     background-color: rgb(242, 208, 196);
     margin-left: 10px;
-    font-size: 95%;  
+    font-size: 120%;  
     font-family: 'Montserrat', sans-serif; 
 }
 
