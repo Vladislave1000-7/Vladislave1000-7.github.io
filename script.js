@@ -58,16 +58,20 @@ function tryToFind(input){
 function answer(word){
     console.log("Entered2");
     let Sblock = document.createElement("div");
+    let Sec = document.querySelector(".section")
+    let art = document.querySelector(".article");
+    console.log(Sec);
     Sblock.style.display= "flex";
     Sblock.style.alignItems = "center";
     Sblock.style.width= "100%";
     Sblock.style.position = "fixed";
-    Sblock.style.height= "300px";
-    Sblock.style.backgroundColor = "rgb(242, 208, 196)";
+    Sblock.style.height= "20px";
+    Sblock.style.backgroundColor = "rgb(254, 183, 155)";
+    Sblock.style.marginTop = "100px";
     console.log(Sblock);
     let ans = document.createElement("h3");
     ans.value = word + improvisation[word];
     console.log(ans.value);
-    document.body.append(Sblock);
-    document.body.append(ans);
+    Sec.insertBefore(Sblock, art);
+    Sblock.appendChild(ans);
 }
