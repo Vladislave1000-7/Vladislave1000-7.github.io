@@ -183,8 +183,16 @@ h2 {
     font-style: italic;
 }
 
+p {
+    color:rgb(190, 124, 128);
+    font-family: 'Montserrat';
+    font-size: 175%;
+}
+
 .textBox {
-    height: max-content;
+    margin-top: 20px;
+    margin-left:10px;
+    height: min-content;
     width: 90%;
 }
 
