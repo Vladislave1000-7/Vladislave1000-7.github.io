@@ -6,11 +6,11 @@ html {
 
 body {
     margin: 0;
-    padding: 0;
-    position: fixed;
+    padding: 0px 0 0;
     width: 100%;
-    height: 100%;
+    height:max-content;
     overflow-y:scroll;
+    overflow-x: unset;
 }
 
 h1 {
@@ -51,54 +51,49 @@ h3 {
     border-bottom: 29px solid rgb(224, 138, 103);
 }
 
-.main {
-    display: flex;
-    position: fixed;
+main {
+    display:flex;
     height: 100%;
     width: 100%;
 }
 
-#hub {
-    position: fixed;
-    height: 100%;
-    width: 75px;
+.hub {
+    min-height: 100%;
+    
+    width: 85px;
     background-color: rgb(242, 208, 196); 
-    border-right: 5px solid rgb(119, 119, 119)
+    border-right: 5px solid rgb(119, 119, 119);
+
 }
 
 .section {
-    margin-left: 80px;
-    width: max-content;
+    width:100%;
     height: 100%;
 }
 
 #search {
-    position: fixed;
     display: flex;
     align-items: center;
-    width:100%;
     height: 80px;
     background-color: rgb(254, 183, 155);
 }
 
 .article {
-    margin-top: 80px;
-    position: fixed;
+    margin-top: 4px;
     width:100%;
     height: 100%;
     background-color: white;
 }
 
 .bar {
-    position: fixed;
     font-size: 400%;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 75px;
-    width: 75px;
+    height: 85px;
+    width: 100%;
+    border: none;
     background: none;
-    border: none
 }
 
 #searchButton {
@@ -155,7 +150,6 @@ h2:hover {
 }
 
 .title {
-    margin-top: 20px;
     margin-left: 40px;
     height: max-content;
     width: 90%;
@@ -173,7 +167,7 @@ h2:hover {
     box-shadow: 0px 0px 0px 4px rgb(161, 78, 38);
     background-color: rgb(161, 78, 38);
     border-radius: 100%;
-    margin-left: 20px;
+    
     margin-right: 20px;
 }
 
@@ -185,9 +179,10 @@ h2 {
 }
 
 p {
-    color:rgb(190, 124, 128);
+    color:black;
     font-family: 'Montserrat';
     font-size: 100%;
+    hyphens: auto;
 }
 
 .textBox {
@@ -198,6 +193,7 @@ p {
     color:rgb(0, 0, 0);
     font-family: 'Montserrat';
     font-size: 100%;
+    hyphens: auto;
 }
 
 .content{
@@ -205,7 +201,6 @@ p {
     height:500px;
     margin-bottom:30px;
     margin-left: 40px;
-    position: relative;
 }
 
 #im1 {
