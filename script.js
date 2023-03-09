@@ -38,7 +38,7 @@ const improvisation = {"драфт":" — Draft (англ) — план, наб�
 
 
 function sorry(){
-    alert(improvisation["профит"]);
+    alert("Sorry, this button is useless for now (:<)");
 }
 function sorryVer2(){
     alert("It seems we didn't found the meaning of this word yet. Or maybe you have written the word wrong");
