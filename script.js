@@ -35,8 +35,6 @@ const improvisation = {"драфт":" — Draft (англ) — план, наб�
 "эйчар":" — Специалист по подбору персонала",
 "ворк-флоу":" — принцип организации рабочих процессов, в соответствии с которым повторяющиеся задачи представлены как последовательность стандартных шагов.",
 };
-
-
 function sorry(){
     alert("Sorry, this button is useless for now (:<)");
 }
@@ -56,48 +54,23 @@ function tryToFind(input){
 }
 
 function answer(word){
-    console.log("Entered2");
-    let Sblock = document.createElement("div");
-    let Sec = document.querySelector(".section")
+    let Sblock = document.getElementById("exist");
+    let Sec = document.querySelector(".section");
     let art = document.querySelector(".article");
-    console.log(Sec);
-    Sblock.style.display= "flex";
-    Sblock.style.alignItems = "center";
-    Sblock.style.width= "100%";
-    Sblock.style.position = "fixed";
-    Sblock.style.height= "20px";
-    Sblock.style.backgroundColor = "rgb(254, 183, 155)";
-    Sblock.style.marginTop = "100px";
-    console.log(Sblock);
-    let ans = document.createElement("h3");
-    ans.value = word + improvisation[word];
-    console.log(ans.value);
-    Sec.insertBefore(Sblock, art);
-    Sblock.appendChild(ans);
-}
-
-function isTouchDevice() {
-    try {
-        document.createEvent("TouchEvent");
-        return true;
-    } catch (e) {
-        return false;
+    if (Sblock===null){
+        Sblock = document.createElement("div");
+        Sblock.style.display= "flex";
+        Sblock.style.alignItems = "center";
+        Sblock.id = "exist";
+        Sblock.style.width= "100%";
+        Sblock.style.height= "100px";
+        Sblock.style.backgroundColor = "rgb(254, 183, 155)";
+        Sblock.innerHTML = "<h3>"+word+improvisation[word]+"</h3>";
+        Sec.insertBefore(Sblock, art);
+    }
+    else{
+        Sblock.innerHTML = "<h3>"+word+improvisation[word]+"</h3>";
     }
 }
 
-function touchScroll(id) {
-    if (isTouchDevice()) { //if touch events exist...
-        var el = document.getElementById(id);
-        var scrollStartPos = 0;
 
-        document.getElementById(id).addEventListener("touchstart", function (event) {
-            scrollStartPos = this.scrollTop + event.touches[0].pageY;
-            event.preventDefault();
-        }, false);
-
-        document.getElementById(id).addEventListener("touchmove", function (event) {
-            this.scrollTop = scrollStartPos - event.touches[0].pageY;
-            event.preventDefault();
-        }, false);
-    }
-}
