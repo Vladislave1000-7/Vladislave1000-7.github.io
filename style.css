@@ -1,0 +1,89 @@
+h1 {
+    font-family: 'Pacifico';
+    color: white;
+    font-size: 300%;
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+img {
+    border-image: linear-gradient(#e478ff, #15b6da) 30;
+    border-width: 5px;
+    border-style: solid;
+}
+
+h2 {
+    font-family: 'Pacifico';
+    color: rgb(56, 1, 99);
+    font-size: 200%;
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+body {
+    margin: 0px;
+    background-image: linear-gradient(90deg, rgb(246, 216, 179), rgb(253, 236, 215), rgb(246, 216, 179));
+}
+
+pre {
+    font-family: 'Pacifico';
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+    font-size: 150%;
+}
+
+.pic {
+    height: auto;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+}
+
+#well {
+    margin: 0px;
+    width:100%;
+    height:500px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("back.jpeg");
+    background-position: center;
+    border-radius: 0% 0% 2% 2%;
+}
+
+#big {
+    height: max-content;
+    width:100%;
+    border:2px red;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#queen {
+    transform: rotate(14deg);
+    height:30%;
+    width:27%;
+    border:none;
+}
+
+#heart {
+    transform: rotate(-10deg);
+    height:30%;
+    width:30%;
+    border:none;
+}
